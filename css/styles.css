@@ -1,45 +1,42 @@
+:root {
+    --main-color: #212121;
+    --main-color: #757575;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
 .section {
     padding: 94px 0;
 }
 
 .container {
     padding: 0 15px;
+    width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
 }
 
-:root{
-    --theme-color: #FF6C00;
-    --text-primary: #303030;
-    --text-secondary: #555;
-    --text-secondary-lugter: #9DA4BD;
-    
-    --primary-font: 'Open Sens';
-    --secondary-font: 'Releway';
-
+.hidden-elem {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -1px;
 }
-
-body{
-    font-family: var(--primary-font);
-    font-weight: 700;
-
+nav,
+.links,
+.contacts,
+header .container {
+    display: flex;
+    justify-content: space-between;
 }
-ul, ol{
-    list-style: none;
+header .logo {
+    margin-right: 93px;
+    display: flex;
 }
-
-a{
-    text-decoration: none;
-}
-address{font-style: normal;}
-
-
-    /*============Header styles starts here============*/
-
-
-
-
-
-    
-    ============Header styles end here============
 
 
 
