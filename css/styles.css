@@ -71,9 +71,10 @@ header .container {
   opacity: 0;
 }
 .benefits {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 .second-title {
   font-weight: bold;
